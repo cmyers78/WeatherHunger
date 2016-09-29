@@ -22,6 +22,7 @@
 		C660CCD81D9AEC0500E5A220 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660CCD71D9AEC0500E5A220 /* Constants.swift */; };
 		C660CCDA1D9AF89500E5A220 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660CCD91D9AF89500E5A220 /* DataStorage.swift */; };
 		C660CCDD1D9B19C900E5A220 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660CCDC1D9B19C900E5A220 /* WeatherTableViewCell.swift */; };
+		C6BA31DD1D9D977700C7B30F /* DocumentsCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA31DC1D9D977700C7B30F /* DocumentsCSV.swift */; };
 		C6BEBED21D9D8FCB0050C963 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BEBED11D9D8FCB0050C963 /* RestaurantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		C660CCD71D9AEC0500E5A220 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C660CCD91D9AF89500E5A220 /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 		C660CCDC1D9B19C900E5A220 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		C6BA31DC1D9D977700C7B30F /* DocumentsCSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsCSV.swift; sourceTree = "<group>"; };
 		C6BEBED11D9D8FCB0050C963 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 		C660CCD61D9AE66900E5A220 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C6BA31DC1D9D977700C7B30F /* DocumentsCSV.swift */,
 				C660CCD21D9AE64500E5A220 /* DailyWeather.swift */,
 				C65E40731D9C3BEE00AABE98 /* Restaurant.swift */,
 				C660CCD41D9AE66300E5A220 /* HourlyWeather.swift */,
@@ -209,6 +212,7 @@
 				C660CCDD1D9B19C900E5A220 /* WeatherTableViewCell.swift in Sources */,
 				C660CCBA1D9AD22100E5A220 /* AppDelegate.swift in Sources */,
 				C64E67021D9D6E530001E613 /* RestaurantViewController.swift in Sources */,
+				C6BA31DD1D9D977700C7B30F /* DocumentsCSV.swift in Sources */,
 				C660CCC21D9AD22100E5A220 /* WeatherHunger.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

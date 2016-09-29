@@ -53,16 +53,4 @@ class RestaurantViewController: UIViewController, UITableViewDelegate, UITableVi
         return cell
     }
     
-    // Create an api that writes a file which summarizes the data gathered in csv format
-    func writeToDocsDirectory() {
-        
-        // take the first cell weather info (current weather)
-        // take the three restaurants gathered
-        // create a file and write as weatherSummary, rest1, rest2, rest3
-        // move on to next line and repeat
-        // append file to docs directory
-        
-        
-    }
-
 }

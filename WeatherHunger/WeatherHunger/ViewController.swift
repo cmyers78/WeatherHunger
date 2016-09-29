@@ -21,6 +21,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var isHourly = false
     
+    var location = ""
+    
     
     // Find user location
     var locationManager = CLLocationManager()
@@ -41,11 +43,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         print(locationManager.location?.coordinate.latitude)
         print(locationManager.location?.coordinate.longitude)
         
-        //tableView.reloadData()
+        self.location = String(locationManager.location?.coordinate.latitude) + "," + String(locationManager.location?.coordinate.longitude)
+        
         
     }
     
     override func viewWillAppear(animated: Bool) {
+        // rewrite fetchWeather function to accept location string...
+        
         controller.fetchWeatherData()
     }
     
